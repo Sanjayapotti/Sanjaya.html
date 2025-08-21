@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width-device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <h1>Registration Form</h1>
+    </head>
+    <style>
+        body{
+            background-color: rgb(161, 41, 161);
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        form {
+            font-size: 40px;
+            background-color: beige;
+            height: 600px;
+            width: 800px;
+            gap: 10px;
+            border-style: double;
+            border: 10px ridge rgb(10, 0, 6);
+            text-align: center;
+            border-radius: 20px;
+        }
+    container{
+        display: grid;
+        grid-template-columns: 100px;  
+        gap : 20px;
+        width: max-content;
+        padding: 10px;
+    }
+    
+    </style>
+    <body>
+        <div class="container">
+            <center>
+        <form>
+            <div class="header">
+                    <h3>Registration Form</h3></div>
+                    <div class="a">
+            <lable for="First Name">First Name</lable>
+            <input type="text" id="First Name" placeholder="parvathi">
+            <lable for="Last Name">Last Name</lable>
+            <input type="text" id="Last Name" placeholder="potti">
+            <br>
+            </div>
+            <div class="c">
+            <lable for="date of birth">date of birth</lable>
+            <input type="date" id="birthday"></div>
+            <div class="d">
+            <lable for="Gender">Gender</lable>
+            <lable>female</lable>
+            <input type="radio" id="Gender" value="female">
+            <lable>male</lable>
+        <input type="radio" id="Gender" value="Male">
+        <br>   
+        </div>
+        <div class="e">
+        <lable for="Email">Email</lable>
+        <input type="text" id="Email" placeholder="parvathi123@gmail.com">
+        </div>
+        <div class="f">
+        <lable for="Phone Number">Phone Number</lable>
+        <input type="text" id="phone number" placeholder="123456789">
+        <br>
+        </div>
+        <div class="g">
+        <lable for="Subject">Subject</lable>
+        <input type="text" id="subject" placeholder="subject">
+        <br>
+        </div>
+        <lable for=" Course"> Course</lable>
+        <select>
+            <option>Choose Course</option>
+            <option>cloud computing</option>
+             <option>python</option>
+              <option>UX/UI</option>
+               <option>JavaScript</option>
+        </select>
+        <br>
+        <div class="h">
+        <button>Submit</button>
+        </div>
+     </form>
+     </center>
+     </div>
+    </body>
+</html>
